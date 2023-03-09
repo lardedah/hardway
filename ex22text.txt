@@ -1,0 +1,53 @@
+print() - returns the contents of parenthesis. can be a string or a variable
+" - used to denote a string
+' - used to denote a string. "'" or '"' can be used, accessibility dependant
+""" - used to denote a string that surpasses the horizontal realm
+() - used to enclose parameters and capture arguments for a function. utilised to determine order of operations
+# - ends the line of 'code'. anything after this is ignored by the machine
++ - adds one thing to another. can be used with numbers or variables that hold either numeric or string values
+- - subtracts one thing from another
+/ - divides one thing by another
+* - multiplies one thing by another. also used to allow a variable to recieve multiple arguments as a list
+% - returns the remains of dividing one thing by another
++= - adds b to a
+= - assigns a value/argument to a variable
+== - returns boolean on equality of a and b
+. - used to call function on something
+, - used to seperate both parameters and arguments
+f - used to ready program to call variable when printing a string
+{} - used to enclose parameter within a string
+True - can be assigned to a variable or returned when variable is checked
+False - the 1 to True's 0. Convenient binary return
+.format() - followed by an argument to be passed to function call
+\n - 'line feed' used within a string to descend a line in output without code sprawl
+\t - 'tab' used to introduce a '    ' to a string
+\ - used to disregard the following character as an instruction and reduce it to person-language.
+\\ - a backslash '\' (a.k.a disregard the ignore)
+\a ASCII bell (BEL)
+\b - ASCII backspace (BS)
+\f - ASCII formfeed (FF)
+\n{} - character in Unicode database (unicode only)
+\r - carriage return.
+\uxxxx - character with 16-bit hex value
+\Uxxxxxxxx - character with 32-bit hex value
+\v - ASCII vertical tab (VT)
+\ooo - character with octal value ooo
+\xhh - character with hex value hh
+input() - takes input from user for multiple uses
+def() - defines a function (custom mini-program) which can be called elsewhere in the program
+from - calls a module
+import - imports function from module
+sys - a module. modules have bundles of functions grouped together to steamline things. not 100% how this all works
+argv - a function within the sys module. provides parameters (the script name + number of those named in script) that are fed via the command line
+sys.argv() - seems to be short-hand for calling sys and argv
+_ - used to improve readability of names 
+ - used to improve readability of code
+     - used to indent code, a key component of the python language
+.read() - 'reads' contents of a file. printing this would print the contents
+.readline() - reads specific line
+.seek() - sets the 'record' to a location, using byte value
+return - an explicit return of whatever is contained with the function. can be followed by variable or function
+.strip() - used to remove content from strings. either whitespace, or specified characters
+.lstrip() - leadingstrip
+.rstrip() - trailingstrip
+encoding/decoding - assigning characters value in bytes to be transported before unpacking and reading.

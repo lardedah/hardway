@@ -9,7 +9,7 @@ print("If you do want that, hit RETURN.") # prints a string.
 input("Press RETURN") # Wants a RETURN button press and proceeds if satisfied. human can press other keys and then press ENTER.
 
 print("opening the file...") # prints a string and gives info. to human.
-target = open(filename, 'w') # creates variable 'target', gives it function of taking 'filename', calls it with 'w' argument. ('w' truncates, 'empties)).
+target = open(filename, 'a') # creates variable 'target', gives it function of taking 'filename', calls it with 'w' argument. ('w' truncates, 'empties)).
 
 print("Truncating the file. Goodbye!") # prints a string. gives info to human.
 #target.truncate() # calls truncate on 'target' variable. 'target' is 'filename', opened and truncated. do line 12 + 15 both truncate?

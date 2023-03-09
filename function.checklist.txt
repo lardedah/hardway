@@ -1,0 +1,16 @@
+hardway function checklist
+
+1. Does function begin with 'def'?	
+2. Does function name have only characters and underscores?	
+3. Does function have parenthesis after function name?	
+4. Does function have arguments after parenthesis seperated by coimmas?	
+5. Does function have unique arguments?	
+6. Does function have closed parenthesis and a colon after the arguments?	
+7.Does function have indentation?	
+8. Does function "end" by dedention? 
+
+When calling a function, check:	
+1. Did I call function by typing it's name?	
+2. Did I put '(' after the name to run it?	
+3. Did I put values I want into the parenthesis, seperated by comma?	
+4. Did I end the function with a ')' character?
